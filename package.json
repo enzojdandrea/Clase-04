@@ -1,0 +1,22 @@
+{
+  "name": "clase-04",
+  "version": "1.0.0",
+  "description": "copia de la pagina de coderhouse ",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzojdandrea/Clase-04.git"
+  },
+  "author": "Enzo D'Andrea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzojdandrea/Clase-04/issues"
+  },
+  "homepage": "https://github.com/enzojdandrea/Clase-04#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
