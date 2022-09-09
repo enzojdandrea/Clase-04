@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Lato', sans-serif;
+    height: 3000px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 1.5;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.whatsapp{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+footer div a img{
+    width: 50px;
+    height: 50px;
+}
