@@ -43,7 +43,7 @@ footer div a img {
       color: #22c55e; }
       .header__content-title:hover::after {
         content: "Inicio";
-        color: white;
+        color: #22c55e;
         font-size: 10px;
         margin-left: 5px; }
     .header__content-navbar {
@@ -59,7 +59,7 @@ footer div a img {
       .header__content-navbar li {
         transition: transform 2s; }
         .header__content-navbar li:last-child {
-          border: 1px solid green;
+          border: 1px solid #22c55e;
           border-radius: 10px;
           padding: 10px; }
         .header__content-navbar li:active {

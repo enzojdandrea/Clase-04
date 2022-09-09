@@ -11,10 +11,10 @@
         align-items: center;
 
         &-title{
-            color:#22c55e;
+            color: $primary;
             &:hover::after{
                 content: "Inicio";
-                color: white;
+                color: $primary;
                 font-size: 10px;
                 margin-left: 5px;
             }
@@ -38,7 +38,7 @@
                 transition: transform 2s;
 
                 &:last-child{
-                    border: 1px solid green;
+                    border: 1px solid $primary;
                     border-radius: 10px;
                     padding: 10px;
                 }
