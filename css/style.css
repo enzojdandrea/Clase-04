@@ -24,12 +24,11 @@ ul {
   position: fixed;
   bottom: 10px;
   right: 10px; }
+  .whatsapp a img {
+    width: 50px;
+    height: 50px; }
 
-footer div a img {
-  width: 50px;
-  height: 50px; }
-
-.contenedor, .header__content, .courses__content, .statistics__content {
+.contenedor, .header__content, .footer__content, .courses__content, .statistics__content {
   max-width: 1200px;
   margin: 0 auto; }
 
@@ -42,8 +41,7 @@ footer div a img {
   .header__content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    color: red; }
+    align-items: center; }
     .header__content-title {
       color: #22c55e; }
       .header__content-title:hover::after {
@@ -74,6 +72,60 @@ footer div a img {
 @media (max-width: 620px) {
   .header__content-navbar {
     display: none; } }
+
+.footer {
+  background-color: #0f172a;
+  color: white;
+  padding: 60px 20px; }
+  .footer__content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px; }
+    .footer__content h4 {
+      color: #22c55e;
+      margin-bottom: 20px;
+      font-weight: bold;
+      font-size: 20px; }
+    .footer__content-list li {
+      margin: 5px 0px; }
+    .footer__content-list a {
+      color: white;
+      transition: all 0.3s; }
+      .footer__content-list a:hover {
+        color: #22c55e; }
+  .footer__copy {
+    margin-top: 40px;
+    text-align: center;
+    color: #94a3b8; }
+  .footer__rrss {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px; }
+    .footer__rrss .rs-github {
+      color: white;
+      font-size: 40px;
+      transition: all 0.3s; }
+      .footer__rrss .rs-github:hover {
+        color: #22c55e; }
+    .footer__rrss .rs-twitter {
+      color: white;
+      font-size: 40px;
+      transition: all 0.3s; }
+      .footer__rrss .rs-twitter:hover {
+        color: #55acee; }
+    .footer__rrss .rs-instagram {
+      color: white;
+      font-size: 40px;
+      transition: all 0.3s; }
+      .footer__rrss .rs-instagram:hover {
+        color: #c92d8f; }
+    .footer__rrss .rs-facebook {
+      color: white;
+      font-size: 40px;
+      transition: all 0.3s; }
+      .footer__rrss .rs-facebook:hover {
+        color: #2279e4; }
 
 /*Particulares*/
 .card {
@@ -146,7 +198,6 @@ footer div a img {
   .statistics__content {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
     color: #e2e8f0; }
     .statistics__content--data {
       font-size: 40px;

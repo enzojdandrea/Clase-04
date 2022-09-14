@@ -7,7 +7,7 @@
 
     &__content{
         @extend  .contenedor;
-        @include templateFlex(space-between);
+        @include templateFlex(space-between,true);
              
         &-title{
             color: $primary;
@@ -20,7 +20,7 @@
         }
 
         &-navbar{
-            @include templateFlex(space-evenly);
+            @include templateFlex(space-evenly,true);
             a{
                 margin: 0 10px;
                 color: #e2e8f0;

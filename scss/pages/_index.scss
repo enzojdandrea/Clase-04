@@ -89,7 +89,7 @@
 
     &__content{
         @extend .contenedor;
-        @include templateFlex(space-evenly);
+        @include templateFlex(space-evenly,false);
         color: #e2e8f0;
            
         &--data{
