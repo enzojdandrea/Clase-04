@@ -6,10 +6,9 @@
     z-index: 1;
 
     &__content{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
+        @extend  .contenedor;
+        @include templateFlex(space-between);
+             
         &-title{
             color: $primary;
             &:hover::after{
@@ -21,9 +20,7 @@
         }
 
         &-navbar{
-            display: flex;
-            align-items: center;
-
+            @include templateFlex(space-evenly);
             a{
                 margin: 0 10px;
                 color: #e2e8f0;
